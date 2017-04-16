@@ -1,0 +1,60 @@
+.container-header {
+	background-color: #000759;
+	max-width: 100%;
+	height: auto;
+}
+
+#titulo {
+	color: white;
+ 	text-align: center;
+ 	padding-top: 10px; 
+ 	font-size: 80px; 
+ 	margin: 0 auto;
+}
+
+h1, p, a {
+	text-align: center;
+}
+
+.info-livro{ font-weight: bold; }
+
+.autor {display: block;}
+
+.capa {float:left;}
+
+.campos-login {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.campos-login input{
+	margin-top: 10px;
+}
+
+#senha {margin-left: 11px;}
+
+#admin {text-align: center;}
+
+#btn-login {
+	display: block;
+	margin: 30px auto;
+}
+
+.livros{
+	margin-top: 10px;
+	margin-bottom: 120px;
+}
+
+.container-footer {
+	background-color: #000759;
+	height: 35px;
+	margin-top: 500px;
+}
+
+.rodape-info {
+	color: white;
+	font-style: oblique;
+	font-size: 30px;
+	text-align: center;
+}
