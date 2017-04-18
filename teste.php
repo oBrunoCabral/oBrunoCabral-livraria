@@ -1,4 +1,4 @@
-<?php require_once 'inc/header.php'; ?>
+<?php require_once 'header.php'; ?>
 
 <?php
 	$query = "select titulo, autor, preco, imagem, qtde from livros";
@@ -21,4 +21,4 @@
 	}
 ?>
 
-<?php require_once 'inc/footer.php'; ?>
+<?php require_once 'footer.php'; ?>

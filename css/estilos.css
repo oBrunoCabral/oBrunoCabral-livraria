@@ -12,8 +12,17 @@
  	margin: 0 auto;
 }
 
-h1, p, a {
+h1, p, a{
 	text-align: center;
+}
+
+.estatico{
+	text-align: right;
+	font-weight: bold;
+}
+
+td > h1 {
+	colspan: 2;
 }
 
 .info-livro{ font-weight: bold; }
@@ -22,34 +31,39 @@ h1, p, a {
 
 .capa {float:left;}
 
-.campos-login {
-	max-width: 300px;
-	margin: 0 auto;
-	padding: 30px;
-}
+	.campos-cadastro {
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 30px;
+	}
 
-.campos-login input{
-	margin-top: 10px;
-}
+	#btn-cadastro {
+		display: block;
+		margin: 30px auto;
+	}
+
+			.campos-login {
+				max-width: 300px;
+				margin: 0 auto;
+				padding: 30px;
+			}
+
+			.campos-login input{
+				margin-top: 10px;
+			}
+
+			#btn-login {
+				display: block;
+				margin: 30px auto;
+			}
 
 #senha {margin-left: 11px;}
 
 #admin {text-align: center;}
 
-#btn-login {
-	display: block;
-	margin: 30px auto;
-}
-
 .livros{
 	margin-top: 10px;
 	margin-bottom: 120px;
-}
-
-.container-footer {
-	background-color: #000759;
-	height: 35px;
-	margin-top: 500px;
 }
 
 .rodape-info {
@@ -58,3 +72,10 @@ h1, p, a {
 	font-size: 30px;
 	text-align: center;
 }
+
+.container-footer {
+	background-color: #000759;
+	height: 35px;
+	margin-top: 200px;
+}
+

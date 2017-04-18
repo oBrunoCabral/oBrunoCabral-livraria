@@ -1,10 +1,10 @@
-<?php require_once 'conecta_mysql.inc.php';?>
+<?php require_once 'inc/conecta_mysql.inc.php';?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<title>Livraria Bruno</title>
-	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<header>
