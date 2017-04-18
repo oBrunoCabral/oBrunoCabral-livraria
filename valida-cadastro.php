@@ -2,7 +2,7 @@
 
 <?php 
 
-	//variáveis vindas do form index.php
+	//variáveis vindas do form cadastro.php
 	$frmNome = $_POST['nome'];
 	$frmEmail = $_POST['email'];
 	$frmUser = $_POST['user'];
