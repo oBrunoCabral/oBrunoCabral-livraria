@@ -5,18 +5,18 @@
 
 <div class="formulario">
 
-	<form action="" method="POST" accept-charset="utf-8">
+	<form action="inc/login.php" method="POST" accept-charset="utf-8">
 		<div class="campos-login">
 			<label>Usuário:</label>
 			<input type="text" name="username">
 			<br>
 			<label id="senha">Senha:</label>
-			<input type="text" name="password">
+			<input type="password" name="password">
 			<br>
 		</div>
 		
 		<div id="admin">
-			<input type="checkbox" name="admin">
+			<input type="checkbox" name="chkAdmin">
 			<label>Efetuar <i>login</i> como Administrador</label>
 		</div>
 
