@@ -10,35 +10,35 @@
 				</th>
 				<tr>
 					<td class="estatico">Nome Completo:</td>
-					<td><input type='text' name='nome' style="width: 300px;"></td>
+					<td><input required="true" type='text' name='nome' style="width: 300px;"></td>
 				</tr>
 				<tr>
 					<td class="estatico">E-mail para contato:</td>
-					<td><input type='email' name='email' style="width: 300px;"></td>
+					<td><input required="true" type='email' name='email' style="width: 300px;"></td>
 				</tr>
 				<tr>
 					<td class="estatico">Usuário (máximo de 15 caracteres):</td>
-					<td><input type='text' name='user' style="width: 80px;"></td>
+					<td><input required="true" type='text' maxlength="15" name='user' style="width: 80px;"></td>
 				</tr>
 				<tr>
 					<td class="estatico">Senha (máximo de 15 caracteres):</td>
-					<td><input type='password' name='password' style="width: 80px;"></td>
+					<td><input required="true" type='password' maxlength="15" name='password' style="width: 80px;"></td>
 				</tr>
 				<tr>
 					<td class="estatico">Repita sua senha:</td>
-					<td><input type='password' name='conf-password' style="width: 80px;"></td>
+					<td><input required="true" type='password' maxlength="15" name='conf-password' style="width: 80px;"></td>
 				</tr>
 				<tr>
 					<td class="estatico">Endereço Completo:</td>
-					<td><input type='text' name='endereco' style="width: 300px;"></td>
+					<td><input required="true" type='text' name='endereco' style="width: 300px;"></td>
 				</tr>
 				<tr>
 					<td class="estatico">Cidade/Estado:</td>
-					<td><input type='text' name='cidade' style="width: 300px;"></td>
+					<td><input required="true" type='text' name='cidade' style="width: 300px;"></td>
 				</tr>
 				<tr>
 					<td colspan="2">
-						<input id='btn-cadastro' type='submit' name='btn-cadastro' value='Cadastrar' style='width: 150px;'>
+						<input required="true" id='btn-cadastro' type='submit' name='btn-cadastro' value='Cadastrar' style='width: 150px;'>
 					</td>
 				</tr>
 			</table>
